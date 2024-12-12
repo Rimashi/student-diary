@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <title>Document</title>
+</head>
+<body>
+
+<div class="main">
+    <div class="form">
+        <h2>Введите логин и пароль</h2>
+        <form action="auth.php" method="post" class="input_form" accept-charset="UTF-8">
+            <label for="login">
+                <input type="text" required class="text" name="login" placeholder='login'><br>
+            </label>
+            <label for="password">
+                <input type="text" required class="text" name="password" placeholder='password'><br>
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="type" required value="teacher">Учитель</input>
+                <input type="radio" name="type" required value="student">Ученик</input>
+            </label>
+            <br>
+            <input type="submit" class="sendButton" value="Войти">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

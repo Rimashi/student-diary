@@ -1,0 +1,58 @@
+h2 {
+   text-align: center;
+}
+
+label {
+    position: relative;
+    margin: 10px 5px 10px 5px;
+}
+
+label span {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    font-size: 20px;
+    cursor: text;
+}
+
+.text {
+    padding: 12px 15px;
+    margin: 5px 0px 5px 0px;
+    width: 200px;
+    height: auto;
+    max-height: 40px;
+    outline: none;
+    font-family: Segoe UI;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.sendButton{
+    outline: none;
+    padding: 15px;
+    margin: 20px;
+    width: 80%;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    border-radius: 20px;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: column;
+}
